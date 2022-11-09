@@ -4,6 +4,11 @@
     font-family: sans-serif;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 .logo {
     height: 160px;
     width: 180px;
@@ -213,7 +218,7 @@ form {
     height: 550px;
     width: 250px;
     position: relative;
-    left: 1105px;
+    left: 1115px;
     bottom: 469px;
     background-color: #FD004D;
 }
