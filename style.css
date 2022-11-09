@@ -78,7 +78,7 @@ span {
     height: 80%;
     position: absolute;
     bottom: 0;
-    right: 100px;
+    right: 130px;
 }
 
 .images img {
@@ -91,11 +91,11 @@ span {
 }
 
 .images:hover .shape {
-    bottom: 40px;
+    bottom: 60px;
 }
 
 .images:hover .profile {
-    left: 45%;
+    left: 65%;
 }
 
 .Portfolio {
