@@ -240,87 +240,139 @@ form {
     color: #212121;
 }
 
-@media(max-width:1000px) {
-    .hero {
-        width: 100%;
-    }
-    .images {
-        height: 425px;
-        width: 300px;
-        position: relative;
-        left: 120px;
-    }
-    .Portfolio {
-        height: 680px;
-    }
-    .info {
-        position: relative;
-        left: 70px;
-        height: 450px;
-        width: 400px;
-    }
-    .btn {
-        position: relative;
-        top: -35px;
-    }
-    .isection {
-        position: relative;
-        left: 0px;
-        top: 110px;
-        width: 100%;
-        height: 150px;
-    }
-    .icons {
-        height: 30px;
-        width: 30px;
-        margin-left: 20px;
-    }
-    .mail {
-        position: relative;
-        left: 45px;
-    }
-    .phone {
-        position: relative;
-        left: 242px;
-        bottom: 70px;
-    }
-    .insideicon .para1 {
-        position: relative;
-        left: 220px;
-        bottom: 70px;
-    }
-    .instagram {
-        position: relative;
-        left: 410px;
-        bottom: 141px;
-    }
-    .insideicon .para2 {
-        position: relative;
-        left: 402px;
-        bottom: 142px;
-    }
-    .isection {
-        margin-top: 180px;
-        border-radius: 0px;
-        margin-bottom: 0%;
-    }
-    .logo {
-        height: 100px;
-        width: 120px;
-    }
-    .hero .list .list1 {
-        position: relative;
-        left: 40px;
-        top: 15px;
-    }
-    .hero .list .list2 {
-        position: relative;
-        left: 20px;
-        top: 15px;
-    }
-    .hero .list .list3 {
-        position: relative;
-        left: 230px;
-        bottom: 23px;
-    }
-}
+ @media(max-width:1000px) {
+                .hero {
+                    width: 100%;
+                }
+                .logo {
+                    height: 80px;
+                    width: 100px;
+                    position: relative;
+                    right: 20px;
+                }
+                .list {
+                    margin-top: 29px;
+                    font-size: .75rem;
+                }
+                .list3 {
+                    position: relative;
+                    left: 170px;
+                    bottom: 34px;
+                }
+                .list1 {
+                    position: relative;
+                    left: 20px;
+                }
+                .hero h1 {
+                    font-size: 2rem;
+                }
+                .detel button {
+                    background-color: #212121;
+                    padding: 8px 15px;
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: #fff;
+                    display: inline-block;
+                    margin: 30px 0;
+                    border-radius: 50px;
+                }
+                .images {
+                    /* display: none; */
+                    /* visibility: hidden; */
+                    width: 25%;
+                    height: 35%;
+                    position: absolute;
+                    top: 300px;
+                }
+                .Portfolio {
+                    position: relative;
+                    bottom: 290px;
+                    height: 560px;
+                    font-size: 13px;
+                }
+                .Portfolio .Pheading {
+                    font-size: 30px;
+                    padding-top: 30px;
+                }
+                .CONTACT {
+                    position: relative;
+                    bottom: 290px;
+                    right: 10px;
+                }
+                .CONTACT h1 {
+                    font-size: 30px;
+                }
+                .info {
+                    position: relative;
+                    left: 15%;
+                    /* right: 1000px; */
+                    height: 400px;
+                    width: 300px;
+                }
+                .isection {
+                    border-radius: 5px;
+                    height: 150px;
+                    width: 100%;
+                    position: relative;
+                    left: 0%;
+                    /* left: 1115px; */
+                    top: 200px;
+                    bottom: 0px;
+                    background-color: #FD004D;
+                }
+                .common {
+                    margin: 15px;
+                    width: 200px;
+                    height: 20px;
+                    /* text-align: center; */
+                    border-radius: 8px;
+                }
+                .MESSAGE {
+                    height: 30px;
+                    width: 200px;
+                }
+                .btn {
+                    position: relative;
+                    top: 5px;
+                }
+                .CONTACT h1 {
+                    padding-top: 7%;
+                    font-size: 30px;
+                }
+                .insideicon {
+                    padding-left: 15px;
+                }
+                .icons {
+                    height: 30px;
+                    width: 30px;
+                }
+                .mail {
+                    position: relative;
+                    left: 45px;
+                }
+                .phone {
+                    position: relative;
+                    left: 42%;
+                    bottom: 65px;
+                }
+                .instagram {
+                    position: relative;
+                    left: 70%;
+                    bottom: 127px;
+                }
+                .insideicon .para {
+                    font-size: 10px;
+                }
+                .insideicon .para1 {
+                    position: relative;
+                    left: 35%;
+                    bottom: 62px;
+                    font-size: 10px;
+                }
+                .insideicon .para2 {
+                    position: relative;
+                    left: 65%;
+                    bottom: 125px;
+                    font-size: 10px;
+                }
+            }
